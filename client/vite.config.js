@@ -9,6 +9,7 @@ export default defineConfig({
   tailwindcss(),
   ],
   define: {
-    'process.env': process.env,
-  },
+    __APP_VERSION__: JSON.stringify('1.0.0')
+  }
+  
 })
