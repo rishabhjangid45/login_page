@@ -14,7 +14,7 @@ import authRoutes from './routes/authRoutes.js';
 import userRoutes from './routes/userroutes.js';
 
 connectDB();
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://login-page-dqel.vercel.app/'];
 app.use(cors({
     origin:allowedOrigins, // Replace with your frontend URL
     credentials: true,  // This is important for cookies
