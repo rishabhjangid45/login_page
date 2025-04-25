@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../componants/navbar'
-import Header from '../componants/Header'
+import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 
 
